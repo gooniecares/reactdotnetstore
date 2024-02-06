@@ -10,7 +10,7 @@ using Microsoft.EntityFrameworkCore.Storage.ValueConversion;
 namespace Api.Data.Migrations
 {
     [DbContext(typeof(StoreContext))]
-    [Migration("20240206182901_InitialCreate")]
+    [Migration("20240206185323_InitialCreate")]
     partial class InitialCreate
     {
         /// <inheritdoc />
@@ -28,10 +28,13 @@ namespace Api.Data.Migrations
                     b.Property<string>("Brand")
                         .HasColumnType("TEXT");
 
-                    b.Property<string>("Desrcription")
+                    b.Property<string>("Description")
                         .HasColumnType("TEXT");
 
                     b.Property<string>("Name")
+                        .HasColumnType("TEXT");
+
+                    b.Property<string>("PictureUrl")
                         .HasColumnType("TEXT");
 
                     b.Property<long>("Price")
