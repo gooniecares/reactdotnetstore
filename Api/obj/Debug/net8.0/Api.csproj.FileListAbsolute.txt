@@ -5,7 +5,6 @@ C:\@caresworld\trainingProjects\reactdotnetstore\Api\bin\Debug\net8.0\Api.deps.j
 C:\@caresworld\trainingProjects\reactdotnetstore\Api\bin\Debug\net8.0\Api.runtimeconfig.json
 C:\@caresworld\trainingProjects\reactdotnetstore\Api\bin\Debug\net8.0\Api.dll
 C:\@caresworld\trainingProjects\reactdotnetstore\Api\bin\Debug\net8.0\Api.pdb
-C:\@caresworld\trainingProjects\reactdotnetstore\Api\bin\Debug\net8.0\Microsoft.AspNetCore.OpenApi.dll
 C:\@caresworld\trainingProjects\reactdotnetstore\Api\bin\Debug\net8.0\Microsoft.OpenApi.dll
 C:\@caresworld\trainingProjects\reactdotnetstore\Api\bin\Debug\net8.0\Swashbuckle.AspNetCore.Swagger.dll
 C:\@caresworld\trainingProjects\reactdotnetstore\Api\bin\Debug\net8.0\Swashbuckle.AspNetCore.SwaggerGen.dll
