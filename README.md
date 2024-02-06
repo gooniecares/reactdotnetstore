@@ -264,6 +264,10 @@ cd Api/ && dotnet ef [command]
 Once Migrations is done you can update the database
 
 ```sh
-    dotnet ef database update
     dotnet ef migrations add InitialCreate -o Data/Migrations
+    dotnet ef database update
 ```
+
+Go to CTRT + Shift + P to open up command palette and search for
+    sql   SQLite: Open Database
+    Then Select databse avaialble.
