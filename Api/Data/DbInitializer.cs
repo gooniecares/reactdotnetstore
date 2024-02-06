@@ -223,5 +223,10 @@ namespace Api.Data
 
             context.SaveChanges();
         }
+
+        internal static void Intialize(Func<StoreContext> context)
+        {
+            throw new NotImplementedException();
+        }
     }
 }

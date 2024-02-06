@@ -55,6 +55,14 @@ Download .NET:
 
 	dotnet is a high level language.
 
+	Some examples of how to start the api project from /Api/ Directory.
+
+```sh
+	dottnet watch
+	dotnet watch run
+	dotnet watch --no-hot-reload 	<<<Most reliable.
+```
+
 ## Languages .Net EcoSystem
 
 	C# 
@@ -271,3 +279,18 @@ Once Migrations is done you can update the database
 Go to CTRT + Shift + P to open up command palette and search for
     sql   SQLite: Open Database
     Then Select databse avaialble.
+
+
+## How to drop the database
+
+
+```sh
+		dotnet ef database drop
+		Build started...
+		Build succeeded.
+		Are you sure you want to drop the database 'main' on server 'store.db'? (y/N)
+		y
+		Dropping database 'main' on server 'store.db'.
+		Successfully dropped database 'main'.
+
+```
