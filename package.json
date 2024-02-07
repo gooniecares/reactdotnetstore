@@ -1,0 +1,8 @@
+{
+  "name": "reactdotnetstore",
+  "version": "1.0.0",
+  "main": "index.js",
+  "repository": "https://github.com/gooniecares/reactdotnetstore.git",
+  "author": "Benjamin Carter <benjamincarter@caresolutions.com>",
+  "license": "MIT"
+}
