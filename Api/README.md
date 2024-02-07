@@ -26,6 +26,11 @@ This is how you check for the type of dotnet version you have.
 ```
 
 
+```sh
+	dotnet new -l					<< 	Get a list of projects you ucan use in dotnet
+	dotnet new gitignore			<<	Creates a gitignore file using dotnet cli
+```
+
 This is how you check node version
 
 ```sh
