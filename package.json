@@ -4,8 +4,9 @@
   "main": "index.js",
   "scripts": {
     "dev": "cd client && vite",
-    "startClient": "cd client && vite",
-    "startApi": "cd client && vite",
+    "devv": "start npm run startClient && start npm run startApi",
+    "startClient": "cd Client && npm run dev",
+    "startApi": "cd Api && dotnet watch",
     "build": "tsc && vite build",
     "lint": "eslint . --ext ts,tsx --report-unused-disable-directives --max-warnings 0",
     "preview": "vite preview"

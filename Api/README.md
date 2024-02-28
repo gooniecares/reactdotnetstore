@@ -63,14 +63,14 @@ Download .NET:
 	Some examples of how to start the api project from /Api/ Directory.
 
 ```sh
-	dottnet watch
+	dotnet watch
 	dotnet watch run
 	dotnet watch --no-hot-reload 	<<<Most reliable.
 ```
 
 ## Languages .Net EcoSystem
 
-	C# 
+	C#
 	F# 			f# Runtime
 	and VB (visual basics)  VB Runtine
 
@@ -299,3 +299,6 @@ Go to CTRT + Shift + P to open up command palette and search for
 		Successfully dropped database 'main'.
 
 ```
+Visit Api On this url:
+
+http://localhost:5678/swagger/index.html
